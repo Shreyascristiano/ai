@@ -1,0 +1,21 @@
+1. sudo su -
+2. yum update -y
+3. yum install -y httpd
+4. systemctl status httpd
+5. mkdir temp
+6. cd temp/
+7. wget https://www.free-css.com/assets/files/free-css-templates/download/page296/oxer.zip
+8. ls
+9. unzip oxer.zip
+10. ls
+11. cd oxer-html
+12. ls
+13. ls -lrt
+14. mv * /var/www/html/
+15. cd /var/www/html/
+16. ls
+17. ls -lrt
+18. systemctl status httpd
+19. systemctl enable httpd
+20. systemctl start httpd
+21. systemctl status httpd
