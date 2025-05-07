@@ -1,0 +1,19 @@
+1.cloud overview => dashboard => create project
+
+2.search admin api => App engine admin api => enable => activate cloud shell(top right)
+
+3.go to GitHub and copy https link(clone)
+
+4.commands : 
+cd (file name) => move to that file
+ls => to show files
+rm -rf (file name) => to remove a file
+
+5. clone using
+git clone (link)
+
+6. move to cloned file
+cd (file name)
+
+7. run the code
+python (file name)

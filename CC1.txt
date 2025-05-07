@@ -1,0 +1,39 @@
+1.change yourself to root user-
+sudo su -
+
+2.update system-
+yum update -y
+
+3.install httpd web server-
+yum install -y httpd
+
+4.check httpd status-
+systemctl status httpd
+
+5.create directory and navigate to it-
+mkdir temp
+cd temp/
+
+6.download website zip file(from free css)-
+wget (link address)
+
+7.to check contents of current directory-
+ls -lrt
+
+8.unzip the file-
+unzip (file name)
+
+9.navigate to unzipped folder-
+cd (folder name)
+
+10.move all to the required directory for hosting-
+mv * /var/www/html/
+
+11.move to that directory-
+cd /var/www/html/
+
+12.enable web server and then start it-
+systemctl enable httpd
+systemctl start httpd
+
+13.now type the public ip in browser to access the site.
